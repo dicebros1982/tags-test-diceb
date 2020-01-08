@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { MaterialModule } from '../material/material.module';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgModule } from "@angular/core";
+import { MaterialModule } from "../material/material.module";
+import { ReactiveFormsModule } from "@angular/forms";
 
-const coreModules = [MaterialModule, FormsModule, ReactiveFormsModule];
+const coreModules = [MaterialModule, ReactiveFormsModule];
 
 @NgModule({
   imports: [coreModules],
