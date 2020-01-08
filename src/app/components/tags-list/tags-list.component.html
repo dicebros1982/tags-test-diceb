@@ -1,8 +1,0 @@
-<div *ngFor="let item of items | async">{{item.name}}
-  <div *ngFor="let parent of getParents(item)">{{parent.name}}</div> 
-</div>
-
-
-<div *ngFor="let item of items | async" (onCreate)="test(item)">{{item.name}}</div>
-
-<app-parent-tag *ngFor="let item of items | async" [test]="item.parents"></app-parent-tag>

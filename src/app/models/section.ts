@@ -1,4 +1,6 @@
+import { Parent } from './parent';
+
 export interface Section {
   name: string;
-  parents: Array<string>;
+  parents: Parent[];
 }

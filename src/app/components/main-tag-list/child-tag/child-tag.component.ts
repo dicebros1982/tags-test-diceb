@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Child } from 'src/app/models/child';
 
 @Component({
   selector: 'app-child-tag',
@@ -6,11 +7,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./child-tag.component.css']
 })
 export class ChildTagComponent implements OnInit {
-@Input() test: Array<Object>;
+  @Input() test: Array<Child>;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
