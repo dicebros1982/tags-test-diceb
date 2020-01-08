@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { TagsService } from 'src/app/services/tags.service';
-import { Section } from 'src/app/models/section';
+import { TagsService } from '../../../services/tags.service';
+import { Section } from '../../../models/section';
 import { Observable } from 'rxjs';
 import { FormGroup, FormBuilder, Validators, NgForm, FormControl } from '@angular/forms';
 
