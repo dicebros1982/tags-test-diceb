@@ -59,7 +59,7 @@
           <mat-form-field>
             <mat-label>parent tag</mat-label>
             <mat-select formControlName="parentTag">
-              <mat-option *ngFor="let parent of parents | async" [value]="parent.id">{{
+              <mat-option *ngFor="let parent of parents | async" [value]="parent.name">{{
                 parent.name
               }}</mat-option>
             </mat-select>
@@ -75,3 +75,5 @@
     </form>
   </mat-card-content>
 </mat-card>
+
+
